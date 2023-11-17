@@ -6,12 +6,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { DataTablesModule } from "angular-datatables";
 import { UsuarioComponent } from './components/usuarios/usuario/usuario.component';
+import { UsuarioListaComponent } from './components/usuarios/usuario-lista/usuario-lista.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     UsuarioComponent,
+    UsuarioListaComponent,
   ],
   imports: [
     BrowserModule,
