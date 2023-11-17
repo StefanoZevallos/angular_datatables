@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { DataTablesModule } from "angular-datatables";
+import { UsuarioComponent } from './components/usuarios/usuario/usuario.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    UsuarioComponent,
   ],
   imports: [
     BrowserModule,
